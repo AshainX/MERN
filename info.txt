@@ -13,4 +13,9 @@ Explicit information middleware server.js{
 
 -- REST API
    HTTP Request -> Middleware Functions -> API Functions
-
+   requesting uuid from npm {
+    Universally Unique Identifiers
+    Universally Unique Identifiers, or UUIDS, are 128 bit numbers, 
+    composed of 16 octets and represented as 32 base-16 characters, 
+    that can be used to identify information across a computer system.
+   }
