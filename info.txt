@@ -24,4 +24,8 @@ Adding Cookie parser middleware{
     npm i cookie-parser
     middleware which parses cookies attached to the client request
 } { using Postman for api rq and rc and added cors }
- 
+
+MONGO DB integration{
+    environment added (dotenv)
+    integrated mongo db and mongoose for packages
+}
