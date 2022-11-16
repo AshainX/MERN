@@ -7,7 +7,7 @@ const { builtinModules } = require('module')
 
 //helper function
 const logEvents = async (message, logFileName) => {
-    const dateTime = `${format(new Date(), 'ddmmyyyy/tHH:mm:ss')}`
+    const dateTime = `${format(new Date(), 'yyyyMMdd\tHH:mm:ss')}`
     const logItem = `${dateTime}\t${uuid()}\t${message}\n`
 
     try {
@@ -15,7 +15,7 @@ const logEvents = async (message, logFileName) => {
             await fsPromises.mkdir(path.join(__dirname, '..', 'logs'))    
         }
         await fsPromises.appendFile(path.join(__dirname, '..','logs',
-        logFileNAme), logItem )
+        logFileName), logItem )
     }catch (err){
         console.log(err)
     }

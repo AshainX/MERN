@@ -19,3 +19,8 @@ Explicit information middleware server.js{
     composed of 16 octets and represented as 32 base-16 characters, 
     that can be used to identify information across a computer system.
    }
+
+Adding Cookie parser middleware{
+    npm i cookie-parser
+    middleware which parses cookies attached to the client request
+}
