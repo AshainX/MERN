@@ -23,4 +23,4 @@ Explicit information middleware server.js{
 Adding Cookie parser middleware{
     npm i cookie-parser
     middleware which parses cookies attached to the client request
-}
+} { using Postman for api rq and rc and added cors }
