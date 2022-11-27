@@ -1,6 +1,6 @@
 const allowedOrigins = [
-    'hhtp://localhost:3000',
-    'https://www.dandrepair.com',
+    'http://localhost:3000',
+    'https://www.dandrepairshop.com',
     'https://dandrepairshop.com'
 ]
 
