@@ -109,6 +109,7 @@ const deleteUser = asyncHandler(async (req, res) => {
     }
 
     // Does the user exist to delete?
+    //changes later
     const user = await User.findById(id).exec()
 
     if (!user) {
